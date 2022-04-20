@@ -1,0 +1,213 @@
+/* used this to set a theme for portfolio */
+:root {
+    --color1: #1c2020;
+    --color2: #265061;
+    --color3: #ff4e5c;
+    --color4: #ffff9b;
+    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* styling for body */
+  body {
+    font-family: 'Times New Roman', Times, serif
+    color: var(--color2);
+    background-color: var(--color1)
+  }
+/* header styling */
+  .header {
+    padding: 25px 0px;
+    height: 100px;
+    background-color: var(--color1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181824; 
+  }
+  /* styling for lists */
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+
+ ul a {
+    text-decoration: none;
+    color: var(--color3);
+    margin: 0px 30px;
+    padding: 0px 5px;
+    font-weight: lighter;
+    font-size: 1.6vw;
+    border-bottom: 2px solid var(--color2);
+ }
+
+ ul a:hover {
+    background-color: var(--color4);
+    color: var(--color1);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+  }
+
+  .hero {
+    background-image: url('../Images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    /* align-items: flex-end; */
+    justify-content: space-between;
+  }
+  .hero img {
+    height: 20rem;
+    width: 18rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    align-self: flex-start;
+    border: 5px solid var(--color3);
+  }
+
+  .about-me {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .about-me p {
+    text-align: left;
+    text-indent: 30px;
+    font-size: 1.2em;
+    width: 75%;
+    color:#ff4e5c;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+  }
+
+  .content {
+    height: 1600px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .content h2 {
+    height: 500px;
+  }
+  .content div {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .Box1 {
+    background-image: url('../Images/projectcat.jpg');
+    background-position: 10% 20%; 
+  }
+  .Box2 {
+    background-image: url('../Images/projectfish.jpg');
+    background-position: 10% 20%; 
+  }
+  .Box3 {
+    background-image: url('../Images/projectdino.jpg');
+    background-position: 10% 20%; 
+  }
+  .Box4 {
+    background-image: url('../Images/projectwolf.jpg');
+    background-position: 10% 20%; 
+  }
+  .LeftTitles {
+    width: 10%;
+    text-align: right;
+    padding: 10px;
+    border-right: 5px solid var(--color2);
+    height: 230px;
+    color: var(--color3);
+  }
+
+.picstyle {
+    height: 500px;
+    width: 500px;
+    opacity: .5;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+}
+.picstyle p {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color1);
+    background-color: var(--color4);
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+px
+ 0;
+}
+
+.BIGpicstyle p {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: var(--color1);
+    background-color: var(--color4);
+    height: 40px;
+    width: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+    
+px
+ 0;
+}
+.BIGpicstyle {
+    height: 500px;
+    width: 1000px;
+    opacity: .5;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.picstyle:hover {
+    opacity: 1;
+    border: 5px solid var(--color4);
+  }
+  .BIGpicstyle:hover {
+    opacity: 1;
+    border: 5px solid var(--color4);
+  }
+
+  .picstyle {
+    height: 500px;
+    opacity: .5;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+  }
+
+  .BIGpicstyle {
+    height: 500px;
+    opacity: .5;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+  }
+
+  .name {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--color3);
+     margin: 0;
+    padding: 10px 10px 10px 60px;
+    border-radius: 0 10px 10px 0;
+}
