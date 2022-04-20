@@ -55,7 +55,7 @@ ul {
   }
 
   .hero {
-    background-image: url('../Images/banner.jpg');
+    background-image: url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
     height: 350px;
@@ -104,19 +104,19 @@ ul {
     justify-content: space-around;
   }
   .Box1 {
-    background-image: url('../Images/projectcat.jpg');
+    background-image: url('../images/projectcat.jpg');
     background-position: 10% 20%; 
   }
   .Box2 {
-    background-image: url('../Images/projectfish.jpg');
+    background-image: url('../images/projectfish.jpg');
     background-position: 10% 20%; 
   }
   .Box3 {
-    background-image: url('../Images/projectdino.jpg');
+    background-image: url('../images/projectdino.jpg');
     background-position: 10% 20%; 
   }
   .Box4 {
-    background-image: url('../Images/projectwolf.jpg');
+    background-image: url('../images/projectwolf.jpg');
     background-position: 10% 20%; 
   }
   .LeftTitles {
