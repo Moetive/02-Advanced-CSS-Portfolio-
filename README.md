@@ -15,7 +15,7 @@ At the very bottom of the screen, you will find links to my personal
 
 ## Link to Deployed Website
 
-[View the working website here!](https://moetive.github.io/02-Advanced-CSS-Portfolio/)
+[View the working website here!](https://moetive.github.io/02-Advanced-CSS-Portfolio-/)
 
 ## Author
 
