@@ -11,7 +11,7 @@ Clicking on the text displayed over the images will load the corresponding websi
 At the very bottom of the screen, you will find links to my personal 
 ## Screenshot
 
-![portfolioScreenGrabV1](https://snipboard.io/ZbRaFH.jpg)
+![portfolioScreenGrabV1](https://snipboard.io/ojAnV1.jpg)
 
 ## Link to Deployed Website
 
